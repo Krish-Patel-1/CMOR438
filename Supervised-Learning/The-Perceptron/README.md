@@ -18,3 +18,4 @@ A weight is assigned to each input node of a perceptron, indicating the importan
 During training, the Perceptron's weights are adjusted to minimize the difference between the predicted output and the actual output. This is achieved using supervised learning algorithms like the delta rule or the Perceptron learning rule.
 
 This process enables the perceptron to learn from data and improve its prediction accuracy over time.
+
