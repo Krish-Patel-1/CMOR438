@@ -1,7 +1,4 @@
 # Decision and Regression Trees
-
----
-
 A decision tree follows a hierarchical, tree-like structure composed of a root node, branches, internal nodes, and leaf nodes.
 
 The tree begins with a root node that has no incoming branches. From the root, branches lead to internal nodes, also called decision nodes. At these nodes, decisions are made based on the available features, and the data is split into subsets. These internal nodes continue this process until they reach the leaf nodes, also known as terminal nodes, which represent the final outcomes of the data. Each leaf node corresponds to a possible outcome within the dataset.
