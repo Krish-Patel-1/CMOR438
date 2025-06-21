@@ -13,6 +13,8 @@ This repository is the semester-long project for CMOR 438 (Rice University Summe
 ---
 ## Repository Topics
 
+Most data used in the algorithms come from the UC Irvine Machine Learning Repository or from Scikit-Learn's library. Links to each data set are provided in the READMEs of the algorithms. The topics learned in this class are the following:
+
 * Supervised Learning
   * The Perceptron
   * Linear Regression
@@ -21,10 +23,10 @@ This repository is the semester-long project for CMOR 438 (Rice University Summe
   * K Nearest Neighbors
   * Decision Trees / Regression Trees
   * Random Forests
-  * Other Ensemble Methods, including Boosting
+  * Other Ensemble Methods, such as Boosting
 
 * Unsupervised Learning
   * K-Means Clustering
   * DBSCAN
-  * Principal Component Analysis
-  * Image Compression with the Singular Value Decomposition (SVD)
+  * Principal Component Analysis (PCA)
+  * Image Compression with Singular Value Decomposition (SVD)
