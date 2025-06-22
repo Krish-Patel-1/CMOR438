@@ -30,3 +30,8 @@ Most data used in the algorithms come from the UC Irvine Machine Learning Reposi
   * DBSCAN
   * Principal Component Analysis (PCA)
   * Image Compression with Singular Value Decomposition (SVD)
+
+---
+## Acknowledgements
+
+I would like to thank Professor Randy Davila for his help throughout the project and for providing examples of the code in action using various datasets. Some of my code is based on the format of these examples.
