@@ -1,0 +1,2 @@
+# Random Forests
+A random forest is a more advanced version of decision trees as it uses multiple decision tree outputs to make a decision leading to more efficiency and accuracy. The decision trees are aggregated and then the random forests's decision is made on the predictions/outputs of all the decision trees by taking the average of all the decision tree outputs. More decision trees = More precision
