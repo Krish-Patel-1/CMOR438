@@ -32,8 +32,8 @@ where `wᵢ` are the weights, `xᵢ` are the input features, and `b` is the bias
 After summation, the result `z` is passed through an **activation function**, which determines the output of the Perceptron. Traditionally, the **Heaviside step function** is used:
 
 ```
-f(z) = 1 if z ≥ 0  
-       0 if z < 0
+f(z) = 1 if z ≥ Threshold  
+       0 if z < Threshold
 ```
 
 This function outputs either a 0 or 1, making it suitable for binary classification.
@@ -80,11 +80,8 @@ wᵢ ← wᵢ + η * (y - ŷ) * xᵢ
 
 While foundational, the Perceptron has its limitations:
 
-- It can only solve **linearly separable** problems. For instance, it cannot correctly classify the XOR problem, which is **not linearly separable**.
+- It can only solve **linearly separable** problems.
 - The use of a step function limits the Perceptron from learning complex decision boundaries due to its non-differentiability.
-- It cannot handle multi-class classification without extension.
-
-These limitations led to the development of **multi-layer perceptrons (MLPs)** and the adoption of **non-linear activation functions** (like ReLU, sigmoid, tanh), which overcome these challenges.
 
 ---
 
